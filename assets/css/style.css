@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+/* header style */
+
+h1 {
+    text-transform: uppercase;
+    color: #001f3f;
+    font-family: Anton, Open Sans;
+    font-weight: 400;
+}
+
+#title {
+    float: left;
+    padding-left: 10px;
+    display: inline;
+    text-decoration-line: underline;
+}
+
+
 .navigation {
     list-style-type: none;
+    display: inline;
 }
