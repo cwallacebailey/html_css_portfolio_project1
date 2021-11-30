@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
@@ -17,12 +22,22 @@ h1 {
 #title {
     float: left;
     padding-left: 10px;
-    display: inline;
+    padding-top: 10px;
     text-decoration-line: underline;
+    font-size: 250%;
 }
 
+/* Inter-page Links */
 
-.navigation {
+#navigation {
+    clear: both;
     list-style-type: none;
-    display: inline;
+    font-size: 120%;
+    text-align: center;
+}
+
+#navigation li {
+    display: inline-block;
+    margin-right: 10%;
+    margin-top: 10px;
 }
