@@ -14,9 +14,10 @@ body {
 
 h1 {
     text-transform: uppercase;
-    color: #001f3f;
     font-family: Anton, Open Sans;
     font-weight: 400;
+    background-color: #001f3f;
+    color: whitesmoke;
 }
 
 #title {
@@ -32,6 +33,7 @@ h1 {
     list-style-type: none;
     font-size: 120%;
     text-align: center;
+    background-color: #001f3f
 }
 
 #navigation li {
@@ -43,7 +45,7 @@ h1 {
 
 #navigation a {
     text-decoration: none;
-    color: #001f3f;
+    color: whitesmoke;
 }
 
 #navigation a:hover {
