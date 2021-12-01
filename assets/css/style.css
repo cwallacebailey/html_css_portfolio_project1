@@ -6,19 +6,18 @@
 }
 
 body {
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
+    font-family: Anton, sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
     text-transform: uppercase;
-    font-family: Anton, Open Sans;
     font-weight: 400;
-    color: white;
+    color: #f5f2e3;
 }
 
 h3, h4 {
     text-transform: uppercase;
+    font-weight: 400;
     color: rgba(221, 69, 55, 1);
 }
 
@@ -76,7 +75,7 @@ header {
 
 #banner-text {
     font-size: 200%;
-    color: whitesmoke;
+    color: #f5f2e3;
     width: 270px;
     height: 210px;
     padding: 10px;
@@ -107,7 +106,7 @@ header {
     height: 392px;
     float: left;
     margin-bottom: 4px;
-    margin-left: 4px;
+    margin-left: 4px
 }
 
 #vegan {
@@ -129,16 +128,20 @@ header {
     height: 392px;
     margin: 0 auto;
     margin-top: 4px;
+    text-decoration: none;
 }
 
 #menu h3 {
     margin-top: 1px;
     margin-left: 4px;
-    text-decoration: underline;
 }
 
 #menu h4 {
     margin-left: 4px;
+}
+
+#menu p {
+    margin-left: 20px;
 }
 
 /* footer */
