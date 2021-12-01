@@ -12,11 +12,14 @@ body {
 
 /* header style */
 
-h1 {
+header {
+    background-color: #001f3f;
+}
+
+h1, h2 {
     text-transform: uppercase;
     font-family: Anton, Open Sans;
     font-weight: 400;
-    background-color: #001f3f;
     color: whitesmoke;
 }
 
@@ -33,7 +36,6 @@ h1 {
     list-style-type: none;
     font-size: 120%;
     text-align: center;
-    background-color: #001f3f
 }
 
 #navigation li {
@@ -50,4 +52,28 @@ h1 {
 
 #navigation a:hover {
     color: red;
+}
+
+/* hero image */
+
+#banner {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#banner-text {
+    font-size: 200%;
+    width: 270px;
+    height: 210px;
+    padding: 10px;
+
+    background-color: rgba(255, 0, 0, 0.6);
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+
+    
 }
