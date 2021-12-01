@@ -13,8 +13,8 @@ body {
 /* header style */
 
 header {
-    background-color: rgba(221, 69, 55, 1);
-    height: 70px;
+    background-color: white;
+    height: 50px;
     position: relative
 }
 
@@ -22,7 +22,7 @@ h1, h2 {
     text-transform: uppercase;
     font-family: Anton, Open Sans;
     font-weight: 400;
-    color: whitesmoke;
+    color: white;
 }
 
 #title {
@@ -32,6 +32,7 @@ h1, h2 {
     text-decoration-line: underline;
     position: absolute;
     bottom: 0;
+    color: rgba(221, 69, 55, 1);
 }
 
 /* Inter-page Links */
@@ -45,13 +46,13 @@ h1, h2 {
 #navigation li {
     font-family: Anton, Open Sans;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 150px;
 }
 
 #navigation a {
     text-decoration: none;
-    color: whitesmoke;
+    color: rgba(221, 69, 55, 1);
 }
 
 #navigation a:hover {
