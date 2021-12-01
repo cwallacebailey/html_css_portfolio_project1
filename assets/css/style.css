@@ -15,7 +15,7 @@ body {
 header {
     background-color: white;
     height: 50px;
-    position: relative
+    position: relative;
 }
 
 h1, h2 {
@@ -30,8 +30,8 @@ h1, h2 {
     margin-left: 10px;
     font-size: 160%;
     text-decoration-line: underline;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: 12px;
     color: rgba(221, 69, 55, 1);
 }
 
@@ -80,4 +80,47 @@ h1, h2 {
     margin-top: 30px;
     margin-left: 20px;
     position: absolute; 
+}
+
+#sub-text {
+    font-size: 50%;
+    margin-top: 90px;
+}
+
+/* current kings section */
+
+#menu {
+    height: 400px;
+}
+
+#meat {
+    border: solid;
+    border-color: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    width: 30%;
+    height: 392px;
+    float: left;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+#vegan {
+    border: solid;
+    border-color: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    width: 30%;
+    height: 392px;
+    float: right;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+#decide {
+    border: solid;
+    border-color: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    width: 30%;
+    height: 392px;
+    margin: 0 auto;
+    margin-top: 4px;
 }
