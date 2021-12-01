@@ -97,7 +97,7 @@ h1, h2 {
     border: solid;
     border-color: rgba(221, 69, 55, 0.8);
     border-width: 4px;
-    width: 30%;
+    width: 33%;
     height: 392px;
     float: left;
     margin-bottom: 4px;
@@ -108,7 +108,7 @@ h1, h2 {
     border: solid;
     border-color: rgba(221, 69, 55, 0.8);
     border-width: 4px;
-    width: 30%;
+    width: 33%;
     height: 392px;
     float: right;
     margin-bottom: 4px;
@@ -123,4 +123,22 @@ h1, h2 {
     height: 392px;
     margin: 0 auto;
     margin-top: 4px;
+}
+
+/* footer */
+
+footer {
+    height: 70px;
+    font-size: 160%;
+    text-align: center;
+}
+
+#footer {
+    text-decoration: none;
+    color: rgba(221, 69, 55, 1);
+}
+
+footer div {
+    border: rgba(221, 69, 55, 1);
+    border-width: 4px;
 }
