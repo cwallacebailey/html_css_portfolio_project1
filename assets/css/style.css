@@ -181,6 +181,7 @@ h2 p {
 #decide h1, #decide h3, #decide p {
     color: white;
     letter-spacing: 1px;
+    margin-top: 1px;
 }
 
 /* footer */
