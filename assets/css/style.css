@@ -91,8 +91,19 @@ header {
 #about-us {
     height: 400px;
     width: 100%;
-
 }
+
+#about-us h2 {
+    font-size: 200%;
+    color: #36454f;
+    text-align: center;
+    padding-top: 150px;
+}
+
+h2 p {
+    font-size: 70%;
+}
+
 
 
 /* current kings section */
