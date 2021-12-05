@@ -91,11 +91,12 @@ header {
 #about-us {
     height: 500px;
     width: 100%;
+    background-image: url(../images/about-us.jpg);
 }
 
 #about-us h2 {
     font-size: 200%;
-    color: #36454f;
+    color: white;
     text-align: center;
     padding-top: 200px;
 }
@@ -103,8 +104,6 @@ header {
 h2 p {
     font-size: 70%;
 }
-
-
 
 /* current kings section */
 
