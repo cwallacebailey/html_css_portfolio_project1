@@ -114,6 +114,16 @@ h2 p {
 
 #menu h1, #menu h2, #menu h3, #menu h4, #menu p {
     color: rgba(221, 69, 55, 1);
+    margin-left: 4px;
+}
+
+#menu h1 {
+    margin-top: 1px;
+}
+
+#menu h3 {
+    margin-top: 2px;
+    letter-spacing: 1px;
 }
 
 #meat {
@@ -159,6 +169,7 @@ h2 p {
 #decide {
     border: solid;
     border-color: rgba(221, 69, 55, 0.8);
+    background-color: rgba(221, 69, 55, 0.8);
     border-width: 4px;
     width: 30%;
     height: 492px;
@@ -167,19 +178,9 @@ h2 p {
     text-decoration: none;
 }
 
-#menu h1 {
-    margin-top: 1px;
-    margin-left: 4px;
-}
-
-#menu h3 {
-    margin-top: 2px;
-    margin-left: 4px;
+#decide h1, #decide h3, #decide p {
+    color: white;
     letter-spacing: 1px;
-}
-
-#menu p {
-    margin-left: 4px;
 }
 
 /* footer */
