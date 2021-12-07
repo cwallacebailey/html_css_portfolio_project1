@@ -110,6 +110,7 @@ h2 p {
 #menu {
     height: 500px;
     font-size: 110%;
+    position: relative;
     }
 
 #menu h1, #menu h2, #menu h3, #menu h4, #menu p {
@@ -178,6 +179,11 @@ h2 p {
     color: white;
     letter-spacing: 1px;
     margin-top: 1px;
+    text-align: center;
+}
+
+#decide h3 {
+    text-decoration: underline;
 }
 
 /* footer */
@@ -194,12 +200,11 @@ footer {
     color: rgba(221, 69, 55, 1);
 }
 
-
 /* responsive elements */
 
 @media screen and (max-width: 1200px) {
     #decide, #vegan, #meat {
-        float: none;
+        float: inherit;
         width: 80%;
         margin: 4px auto;
     }
@@ -219,9 +224,13 @@ footer {
     #decide, #vegan, #meat {
         width: 95%;
     }
-    
+
     #banner {
         background: url(../images/hero-image2.jpg);
         background-repeat: no-repeat;
+    }
+
+    #navigation li {
+        width: 10%;
     }
 }
