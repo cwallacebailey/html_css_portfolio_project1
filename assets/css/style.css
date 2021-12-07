@@ -236,4 +236,8 @@ footer {
     #navigation {
         clear: left;
     }
+
+    #title {
+        margin-left: 23%;
+    }
 }
