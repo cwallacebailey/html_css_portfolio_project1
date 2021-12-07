@@ -21,7 +21,6 @@ h1, h2, h3, h4 {
 
 header {
     background-color: white;
-    height: 50px;
 }
 
 #title {
@@ -62,9 +61,8 @@ header {
 #banner {
     height: 500px;
     width: 100%;
-    background: url(../images/hero-image.jpg);
+    background: url(../images/hero-image.jpg) center center;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 #banner-text {
@@ -92,6 +90,8 @@ header {
     height: 500px;
     width: 100%;
     background-image: url(../images/about-us.jpg);
+    background-repeat: no-repeat;
+    background-color: #00475b;
 }
 
 #about-us h2 {
@@ -225,12 +225,12 @@ footer {
         width: 95%;
     }
 
-    #banner {
-        background: url(../images/hero-image2.jpg);
-        background-repeat: no-repeat;
+    #title {
+        float: ;
     }
 
-    #navigation li {
-        width: 10%;
+    #navigation {
+        clear: left;
+        margin-top: -5px;
     }
 }
