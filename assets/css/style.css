@@ -19,8 +19,12 @@ h1, h2, h3, h4 {
 
 /* header style */
 
-header {
+#header {
     background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 #title {
@@ -72,9 +76,9 @@ header {
     height: 210px;
     padding: 10px;
     background-color: rgba(221, 69, 55, 0.8);
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 20px;
-    position: absolute; 
+    position: absolute;
 }
 
 #sub-text {
@@ -98,7 +102,7 @@ header {
     font-size: 200%;
     color: white;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 12%;
 }
 
 h2 p {
@@ -225,12 +229,7 @@ footer {
         width: 95%;
     }
 
-    #title {
-        float: ;
-    }
-
     #navigation {
         clear: left;
-        margin-top: -5px;
     }
 }
