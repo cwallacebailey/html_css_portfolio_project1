@@ -219,6 +219,10 @@ footer {
 }
 
 @media screen and (max-width: 1050px) {
+    #banner-text {
+        margin-top: 160px;
+    }
+ 
     #decide, #vegan, #meat {
         width: 90%;
     }
