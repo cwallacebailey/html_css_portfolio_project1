@@ -112,7 +112,6 @@ h2 p {
 /* meat or vegan section */
 
 #menu {
-    height: 500px;
     font-size: 110%;
     position: relative;
     }
@@ -238,6 +237,6 @@ footer {
     }
 
     #title {
-        margin-left: 23%;
+        margin-left: 22%;
     }
 }
