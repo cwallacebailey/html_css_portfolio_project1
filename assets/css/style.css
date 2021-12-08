@@ -240,3 +240,10 @@ footer {
         margin-left: 22%;
     }
 }
+
+/* contact us form section */
+
+#form-background {
+    background-color: #00475b;
+    height: 1000px;
+}
