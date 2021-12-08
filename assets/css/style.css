@@ -243,7 +243,25 @@ footer {
 
 /* contact us form section */
 
-#form-background {
+#contact {
     background-color: #00475b;
     height: 1000px;
+}
+
+#form {
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 80px;
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    border: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    border-style: solid;
+}
+
+#form h4 {
+    margin-left: 4px;
+    color: rgba(221, 69, 55, 1);
+    margin-bottom: 10px;
 }
