@@ -36,17 +36,25 @@
     </header>
 
     <section id="contact">
-        <div id="form">
-            <form action="#" method="post">
-                <h4>think your restaurant is better than our choice?<br>get in touch and we'll try them out</h4>
-                <input type="text" name="" id="">
-                <input type="email" name="" id="">
-                <input type="text" name="" id="">
-                <input type="radio" name="" id="">
-                <input type="radio" name="" id="">
-                <input type="radio" name="" id="">
-                <input type="text" name="" id="">
-                <input type="submit" name="" id="">
+        <div>
+            <form action="#" method="post" id="form">
+                <h3>think you know a better wing?<br>get in touch and we'll try them out</h3>
+                <label for="name">Full Name:</label>
+                <input type="text" name="" id="name" class="form-items" required>
+                <label for="email">Email:</label>
+                <input type="email" name="" id="email" class="form-items" required>
+                <label for="rest-label">Restaurant Name:</label>
+                <input type="text" name="" id="rest-label" class="form-items" required>
+                <label for="meat-label">Meat</label>
+                <input type="radio" name="radio" id="meat-label" class="radio" required>
+                <label for="vegan-label">Vegan</label>
+                <input type="radio" name="radio" id="vegan-label" class="radio">
+                <label for="both-label">Both</label>
+                <input type="radio" name="radio" id="both-label" class="radio">
+                <br>
+                <label for="comment-box">Comment:</label>
+                <textarea name="" id="comment-box" cols="30" rows="5"></textarea>
+                <input type="submit" name="" id="comment-box" class="form-items">
             </form>
         </div>
     </section>
