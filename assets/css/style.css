@@ -17,6 +17,10 @@ h1, h2, h3, h4 {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* header style */
 
 #header {
@@ -52,7 +56,6 @@ h1, h2, h3, h4 {
 }
 
 #navigation a {
-    text-decoration: none;
     color: rgba(221, 69, 55, 1);
 }
 
@@ -175,7 +178,6 @@ h2 p {
     height: 492px;
     margin: 0 auto;
     margin-top: 4px;
-    text-decoration: none;
 }
 
 #decide h1, #decide h3, #decide p {
@@ -189,6 +191,23 @@ h2 p {
     text-decoration: underline;
 }
 
+/* link to contact us page */
+
+#contact-link {
+    height: 100px;
+    width: 100%;
+    border: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    border-style: solid;
+    margin: 4px;
+}
+
+#contact-link h2 {
+    color: rgba(221, 69, 55, 1);
+    text-align: center;
+    padding-top: 1.7%;
+}
+
 /* footer */
 
 footer {
@@ -199,7 +218,6 @@ footer {
 }
 
 #footer {
-    text-decoration: none;
     color: rgba(221, 69, 55, 1);
 }
 
@@ -210,10 +228,6 @@ footer {
         float: inherit;
         width: 80%;
         margin: 4px auto;
-    }
-
-    #menu a {
-        text-decoration: none;
     }
 }
 
