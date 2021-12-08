@@ -258,7 +258,9 @@ footer {
 /* contact us form section */
 
 #contact {
-    background-color: #00475b;
+    background-color: white;
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
     height: 1000px;
 }
 
