@@ -221,6 +221,23 @@ footer {
     color: rgba(221, 69, 55, 1);
 }
 
+/* Meat Option Page */
+
+#meat-banner {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/meat-banner.jpg);
+    background-repeat: no-repeat;
+    background-color: #00475b;
+}
+
+/* about and location section */
+
+#meat-map {
+    width: 99.5%;
+    height: 490px;
+}
+
 /* responsive elements */
 
 @media screen and (max-width: 1200px) {
