@@ -236,6 +236,7 @@ footer {
 #meat-map {
     width: 99.5%;
     height: 490px;
+    border: none;
 }
 
 /* responsive elements */
