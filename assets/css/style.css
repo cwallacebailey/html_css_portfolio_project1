@@ -192,6 +192,10 @@ h2 p {
     text-decoration: underline;
 }
 
+.decide-meat {
+    text-decoration: none;
+}
+
 /* link to contact us page */
 
 #contact-link {
