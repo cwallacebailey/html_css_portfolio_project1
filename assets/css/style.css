@@ -255,6 +255,7 @@ footer {
 
 #results li {
     text-align: center;
+    list-style: none;
 }
 
 /* responsive elements */
