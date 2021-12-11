@@ -63,6 +63,10 @@ a {
     color: #00475b;
 }
 
+.show-page-on {
+    text-decoration: underline;
+}
+
 /* hero image */
 
 #banner {
