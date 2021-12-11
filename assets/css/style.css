@@ -204,7 +204,7 @@ h2 p {
 
 #contact-link {
     height: 100px;
-    width: 100%;
+    width: 99.25%;
     border: rgba(221, 69, 55, 0.8);
     border-width: 4px;
     border-style: solid;
@@ -252,7 +252,7 @@ footer {
 /* responsive elements */
 
 @media screen and (max-width: 1200px) {
-    #decide, #right-box, #meat {
+    #centre-box, #right-box, #left-box {
         float: inherit;
         width: 80%;
         margin: 4px auto;
@@ -264,13 +264,13 @@ footer {
         margin-top: 160px;
     }
  
-    #decide, #right-box, #meat {
+    #centre-box, #right-box, #left-box {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 950px) {
-    #decide, #right-box, #meat {
+    #centre-box, #right-box, #left-box {
         width: 95%;
     }
 
