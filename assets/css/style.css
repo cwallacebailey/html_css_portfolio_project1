@@ -266,6 +266,7 @@ footer {
         width: 80%;
         margin: 4px auto;
     }
+
 }
 
 @media screen and (max-width: 1050px) {
@@ -289,6 +290,10 @@ footer {
 
     #title {
         margin-left: 22%;
+    }
+
+    #results {
+        font-size: 90%;
     }
 }
 
