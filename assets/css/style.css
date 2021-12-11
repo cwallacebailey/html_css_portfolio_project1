@@ -138,7 +138,7 @@ h2 p {
     letter-spacing: 1px;
 }
 
-#meat {
+#left-box {
     border: solid;
     border-color: rgba(221, 69, 55, 0.8);
     border-width: 4px;
@@ -150,7 +150,7 @@ h2 p {
     text-align: center;
 }
 
-#meat h1 {
+#left-box h1 {
     font-size: 300%;
     text-align: center;
     padding-top: 30%;
@@ -174,7 +174,7 @@ h2 p {
     padding-top: 30%;
 }
 
-#decide {
+#centre-box {
     border: solid;
     border-color: rgba(221, 69, 55, 0.8);
     background-color: rgba(221, 69, 55, 0.8);
@@ -185,14 +185,14 @@ h2 p {
     margin-top: 4px;
 }
 
-#decide h1, #decide h3, #decide p {
+#centre-box h1, #centre-box h3, #centre-box p {
     color: white;
     letter-spacing: 1px;
     margin-top: 1px;
     text-align: center;
 }
 
-#decide h3 {
+#centre-box h3 {
     text-decoration: underline;
 }
 
