@@ -200,7 +200,7 @@ h2 p {
 
 #contact-link {
     height: 100px;
-    width: 99.25%;
+    width: inherit;
     border: rgba(221, 69, 55, 0.8);
     border-width: 4px;
     border-style: solid;
@@ -266,7 +266,6 @@ footer {
         width: 80%;
         margin: 4px auto;
     }
-
 }
 
 @media screen and (max-width: 1050px) {
