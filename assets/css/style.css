@@ -237,6 +237,20 @@ footer {
     background-color: #00475b;
 }
 
+#about {
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/about-us.jpg);
+    background-repeat: no-repeat;
+    background-color: #00475b;
+}
+
+#about h2 {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+}
+
 /* vegan option page */
 
 #vegan-banner {
