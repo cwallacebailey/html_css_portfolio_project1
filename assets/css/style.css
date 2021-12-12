@@ -103,8 +103,6 @@ a {
 #about-us {
     height: 500px;
     width: 100%;
-    background-image: url(../images/about-us.jpg);
-    background-repeat: no-repeat;
     background-color: #00475b;
 }
 
@@ -244,8 +242,6 @@ footer {
 #about {
     height: 200px;
     width: 100%;
-    background-image: url(../images/about-us.jpg);
-    background-repeat: no-repeat;
     background-color: #00475b;
 }
 
