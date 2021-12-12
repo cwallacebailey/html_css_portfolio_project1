@@ -94,6 +94,7 @@ a {
     font-size: 50%;
     margin-top: 90px;
     font-family: Anton, sans-serif;
+    position: absolute;
 }
 
 /* about us banner */
@@ -113,8 +114,10 @@ a {
     padding-top: 12%;
 }
 
-h2 p {
-    font-size: 70%;
+#about-us h3 {
+    font-size: 150%;
+    color: white;
+    text-align: center;
 }
 
 /* meat or vegan section */
