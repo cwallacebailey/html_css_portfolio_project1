@@ -226,12 +226,23 @@ footer {
     color: rgba(221, 69, 55, 1);
 }
 
-/* Meat Option Page */
+/* meat option page */
 
 #meat-banner {
-    height: 500px;
+    height: 900px;
     width: 100%;
     background-image: url(../images/meat-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #00475b;
+}
+
+/* vegan option page */
+
+#vegan-banner {
+    height: 900px;
+    width: 100%;
+    background-image: url(../images/vegan-wing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #00475b;
