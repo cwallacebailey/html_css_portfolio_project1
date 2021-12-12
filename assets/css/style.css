@@ -231,7 +231,7 @@ footer {
 #meat-banner {
     height: 500px;
     width: 100%;
-    background-image: url(../images/meat-banner.jpg);
+    background-image: url(../images/meat-banner2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #00475b;
@@ -293,6 +293,11 @@ footer {
 
     #results {
         font-size: 90%;
+    }
+
+    #banner-text-2 {
+        font-size: 110%;
+        width: 100%;
     }
 }
 
