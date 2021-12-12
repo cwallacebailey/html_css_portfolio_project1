@@ -229,7 +229,7 @@ footer {
 /* meat option page */
 
 #meat-banner {
-    height: 900px;
+    height: 800px;
     width: 100%;
     background-image: url(../images/meat-banner.jpg);
     background-size: cover;
@@ -249,12 +249,13 @@ footer {
     font-size: 200%;
     color: white;
     text-align: center;
+    padding-top: 10px;
 }
 
 /* vegan option page */
 
 #vegan-banner {
-    height: 900px;
+    height: 800px;
     width: 100%;
     background-image: url(../images/vegan-wing.jpg);
     background-size: cover;
