@@ -87,6 +87,7 @@ a {
     margin-top: 80px;
     margin-left: 20px;
     position: absolute;
+    text-transform: uppercase;
 }
 
 #sub-text {
@@ -188,7 +189,7 @@ a {
     margin-top: 4px;
 }
 
-#centre-box h1, #centre-box h3, #centre-box p {
+#centre-box h2, #centre-box h3, #centre-box p {
     color: white;
     letter-spacing: 1px;
     margin-top: 1px;
