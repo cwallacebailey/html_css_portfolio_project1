@@ -21,6 +21,10 @@ a {
     text-decoration: none;
 }
 
+h2 a {
+    color: white;
+}
+
 /* header style */
 
 #header {
@@ -110,7 +114,7 @@ a {
     font-size: 200%;
     color: white;
     text-align: center;
-    padding-top: 12%;
+    padding-top: 5%;
 }
 
 #about-us h3 {
@@ -233,7 +237,7 @@ footer {
 #meat-banner {
     height: 800px;
     width: 100%;
-    background-image: url(../images/meat-banner.jpg);
+    background-image: url(../images/meat-hero-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #00475b;
@@ -257,7 +261,7 @@ footer {
 #vegan-banner {
     height: 800px;
     width: 100%;
-    background-image: url(../images/vegan-wing.jpg);
+    background-image: url(../images/vegan-hero-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #00475b;
