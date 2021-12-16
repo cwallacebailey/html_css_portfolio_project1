@@ -383,6 +383,33 @@ input[type=submit] {
     #centre-box, #right-box, #left-box {
         width: 95%;
     }
+
+    #left-box, #right-box {
+        height: 250px;
+    }
+
+    #left-box h2, #right-box h2 {
+        font-size: 200%;
+        padding-top: 8%;
+    }
+
+    #map {
+        height: 248px;
+    }
+
+    #banner-text-2 {
+        font-size: 105%;
+        width: 290px;
+        height: 60px;
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 120px;
+    }
+
+    #form {
+        margin-top: 220px;
+        margin-left: 5px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -412,18 +439,18 @@ input[type=submit] {
         text-align: center;
     }
 
-    #banner-text-2 {
-        font-size: 105%;
-        width: 290px;
-        height: 60px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 100px;
+    #meat-banner, #vegan-banner {
+        background-image: url(../images/500px-hero-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
-    #form {
-        margin-top: 200px;
-        margin-left: 5px;
+    #about {
+        height: fit-content;
     }
 
+    #about-us, #about, #centre-box, #contact-link { 
+        font-size: 90%;
+    }
 }
