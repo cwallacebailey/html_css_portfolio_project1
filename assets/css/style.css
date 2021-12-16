@@ -74,7 +74,7 @@ h2 a {
 /* hero image */
 
 #banner {
-    height: 500px;
+    height: 800px;
     width: 100%;
     background: url(../images/hero-image.jpg) center center;
     background-size: cover;
@@ -381,4 +381,35 @@ input[type=submit] {
         font-size: 120%;
         width: 70%;
     }
+}
+
+@media screen and (max-width: 600px) {
+
+    #title {
+        font-size: 120%;
+    }
+
+    #navigation {
+        font-size: 120%;
+    }
+
+    #navigation li {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    #banner-text-2 {
+        font-size: 105%;
+        width: 290px;
+        height: 60px;
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 80px;
+    }
+
+    #form {
+        margin-top: 180px;
+        margin-left: 5px;
+    }
+
 }
