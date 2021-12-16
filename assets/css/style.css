@@ -124,6 +124,7 @@ li {
     font-size: 150%;
     color: white;
     text-align: center;
+    text-transform: lowercase;
 }
 
 /* meat or vegan section */
@@ -258,7 +259,8 @@ footer {
     font-size: 200%;
     color: white;
     text-align: center;
-    padding-top: 10px;
+    padding: 10px;
+    text-transform:capitalize;
 }
 
 /* vegan option page */
@@ -385,6 +387,12 @@ input[type=submit] {
         width: 70%;
     }
 
+    #banner {
+        background: url(../images/500px-hero-image.jpg) center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     #centre-box, #right-box, #left-box {
         width: 95%;
     }
@@ -431,12 +439,6 @@ input[type=submit] {
     #navigation li {
         width: 20%;
         margin: 0 auto;
-    }
-
-    #banner {
-        background: url(../images/500px-hero-image.jpg) center center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
     #banner-text {
