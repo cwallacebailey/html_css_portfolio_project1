@@ -25,6 +25,10 @@ h2 a {
     color: white;
 }
 
+li {
+    text-decoration: none;
+}
+
 /* header style */
 
 #header {
@@ -229,6 +233,8 @@ footer {
 
 #footer {
     color: rgba(221, 69, 55, 1);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* meat option page */
@@ -243,7 +249,7 @@ footer {
 }
 
 #about {
-    height: 200px;
+    height: fit-content;
     width: 100%;
     background-color: #00475b;
 }
@@ -443,10 +449,6 @@ input[type=submit] {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-    }
-
-    #about {
-        height: fit-content;
     }
 
     #about-us, #about, #centre-box, #contact-link { 
