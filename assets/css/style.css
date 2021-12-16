@@ -356,7 +356,7 @@ input[type=submit] {
 
 @media screen and (max-width: 1050px) {
     #banner-text {
-        margin-top: 160px;
+        margin-top: 120px;
     }
  
     #centre-box, #right-box, #left-box {
@@ -365,28 +365,31 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 950px) {
-    #centre-box, #right-box, #left-box {
-        width: 95%;
+    
+    #header #title {
+        float: none;
+        text-align: center;
     }
-
+    
     #navigation {
         clear: left;
-    }
-
-    #title {
-        margin-left: 22%;
     }
 
     #banner-text-2 {
         font-size: 120%;
         width: 70%;
     }
+
+    #centre-box, #right-box, #left-box {
+        width: 95%;
+    }
 }
 
 @media screen and (max-width: 600px) {
 
     #title {
-        font-size: 120%;
+        font-size: 130%;
+        margin: 0 auto;
     }
 
     #navigation {
@@ -398,17 +401,28 @@ input[type=submit] {
         margin: 0 auto;
     }
 
+    #banner {
+        background: url(../images/500px-hero-image.jpg) center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #banner-text {
+        margin-top: 100px;
+        text-align: center;
+    }
+
     #banner-text-2 {
         font-size: 105%;
         width: 290px;
         height: 60px;
         text-align: center;
         margin-left: 5px;
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     #form {
-        margin-top: 180px;
+        margin-top: 200px;
         margin-left: 5px;
     }
 
