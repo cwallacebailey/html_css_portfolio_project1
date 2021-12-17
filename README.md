@@ -1,12 +1,16 @@
 # Bristol's King Wing
 
-Bristol's best wing is designed to provide information on where a user can find the best possible fried chicken wing, in Bristol, be it meat or vegan. The site was created in response to the growing popularity of fried chicken in Bristol as evidenced by increased google searches over the last 12 months and is designed to also cater to the large vegan population in the city increasing the sites userbase and reach. 
+Bristol's King Wing is designed to provide information on where a user can find the best possible fried chicken wing in Bristol, be it meat or vegan. The site was created in response to the growing popularity of fried chicken in Bristol as evidenced by increased google searches over the last 12 months and is designed to also cater to the large vegan population in the city increasing the sites userbase and reach. The top positions are always up for grabs and the site promotes competition within restaurants by allowing them to contact the site owner with their suggested best wing and invite us to their eatery to test their chicken wings. 
 
-Feel free to take a look at the site - [Bristol's King Wing](https://cwallacebailey.github.io/html_css_portfolio_project1/)
+Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey.github.io/html_css_portfolio_project1/)
 
 ![Bristol's King Wing responsive design](assets/readme-images/responsive-design.png)
 
 # Contents
+
+* [Features](<#Features>)
+    * [Home](<### Navigation Menu>)
+        * [Navigation Menu]()
 
 # Features
 
@@ -42,4 +46,80 @@ The site is also designed to inspire hunger for the product in a user, be eye ca
 [return to contents](<#contents>)
 
 * ### About us
-    * 
+    * This section gives the user further details on the benefit the site will provide
+    * The font is chosen to be clear and displays the sites icon of a crown above which is a common theme throughout the website above. The section tells the user to keep scrolling to see our top product choices
+    * The section height is responsive to the screen width and increases to always allow the text to be clear and visible no matter the size of the screen the site is viewed on
+    * On the Meat or Vegan pages this section offers details about the restaurant we've picked as the best product available in Bristol which is valuable to the user as it gives them a better idea why we picked this restaurant. 
+
+![Bristol's King Wing about us](assets/readme-images/about-us.png)
+
+[return to contents](<#contents>)
+
+* ### User Choice
+    * The language used in this section is designed to achieve a slight comedic effect to elicit a positive user response
+    * The central box in this section outlines our scoring system as to how we rate the chicken wings when we test them
+    * The left box is for a user who eats meat and the text that says "click here" is a link to the meat options page.
+    * The right box is for a vegan user. The text that says "click here" is a link to the vegan options page.
+    * The border was used to give three distinct segments. 
+    * These sections stack when viewed on a screen smaller than 1200px
+
+![Bristol's King Wing about us](assets/readme-images/meat-or-vegan-section.png)
+
+[return to contents](<#contents>)
+
+* ### Link to form
+    * This section offers an easy to use link to our submissions form on our 'contact' page to the sites user, be they restaurant owner or punter who has been to what they believe is a better restaurant
+    * The description in the section immediately lets the user know what it is for and the text is itself a link to the contact page for ease of use
+    * This offers value to the user as it is simple to use but inspires friendly competition between eateries and allows the usert to feel connected with the site as they contribute their ideas for the best fried chicken wing in Bristol
+    * This section is available on all tabs except the 'contact' page
+
+![Bristol's King Wing link to form page](assets/readme-images/contact-link.png)
+
+[return to contents](<#contents>)
+
+* ### Footer
+    * This section contains links to social media pages and is available on all four pages of the site. To offer a greater UX experience once clicked they open in new tabs
+    * The links would allow the user to see more restaurants that we have tried (on Instagram and Youtube) and how we rated those experiences. Note the links currently link to the social media home pages and not Bristol King Wing specific pages which have not yet been made. 
+    * This offers value to the user to allow them to explore more of the brands content. 
+
+![Bristol's King Wing footer](assets/readme-images/footer.png)
+[return to contents](<#contents>)
+
+### Meat and Vegan pages
+
+* ### Meat and vegan page background
+    * Once selected the meat or vegan page immediately shows our top meat or vegan choice in Bristol, named in the the text box overlayed onto the image. The background image on the meat page is itself the inside of the eatery and shows the brand of the chicken. The vegan image is designed to look enticing and promote hunger in the user
+    * The text overlayed onto the image which says 'click for menu' would take the user to the restaurants online menu. For better UX this opens in a new tab and offers value as the user can see if they like the food being offerred and assess its cost. 
+    * On screens below 950px this background changes to the home landing image so a clear picture is always maintained on the site
+
+![Bristol's King Wing meat page banner image](assets/readme-images/meat-banner-image.png)
+![Bristol's King Wing vegan page banner image](assets/readme-images/vegan-banner-image.png)
+[return to contents](<#contents>)
+
+* ### Menu section of meat and vegan pages
+
+    * The center box of this section outlines our total score for the restaurant and score of each of the five items by which we rank the food
+    * The left box offers links to trip advisor to allow the user to see what other diners thought of the food. This offers value to the user as seeing other positive reviews would instill trust in the sites top choice. For a better user experience this link opens in a separate tab
+    * The right box shows a google map of the restaurants location and can be clicked on to see the address. This also opens in a separate tab and from their a user can put in their location to get directions to the restaurant. This offers value as it provides an easy way for the user to find the restaurant
+
+![Bristol's King Wing ](assets/readme-images/meat-menu-section.png)
+[return to contents](<#contents>)
+
+### Form page
+
+The purpose of this page is highlighted in the text box overlayed onto the background image. It allows a user to submit their choice of restaurant for review
+
+* ### Form
+    * The form is designed to allow a user to recommend their favourite restaraunt to the person running the site if they think they know a better wing than the current top choices on the page
+    * The form offers 5 sections, name, email, restaurant name, a radio selection to say if their choice offers meat, vegan or both options and finally a comments section. 
+    * The form first four sections of the form are 'required' in order to submit the form and if missed by the user when they click submit they will be asked to fill in a missing section. The comments section is optional
+
+![Bristol's King Wing ](assets/readme-images/form-page.png)
+[return to contents](<#contents>)
+
+## Future Features
+
+* A top 3 section would be added to the meat and vegan pages where the user can see other restaraunts that offer great food but wouldn't be considered the best possible option. This would make the site more usable as it may recommend extra eateries that are closer to the user. 
+* The footer links to each websites homepage. At the moment social media pages do not exist for Instagram, Facebook or Youtube and these would first have to be made to link to. 
+* A 'get me there' button could be added which would take the user to a map and options for travel to the restaurant including taxis. 
+* The form section does not currently actually submit data. It instead resets the form when submit is clicked. 
