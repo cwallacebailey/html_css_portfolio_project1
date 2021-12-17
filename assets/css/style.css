@@ -186,15 +186,25 @@ li {
     margin-top: 4px;
 }
 
-#centre-box h2, #centre-box h3, #centre-box p {
+#centre-box h2 {
     color: white;
     letter-spacing: 1px;
     margin-top: 1px;
     text-align: center;
+    text-decoration: underline;
 }
 
-#centre-box h3 {
-    text-decoration: underline;
+.results {
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    text-transform: uppercase;
+    font-size: 110%;
+}
+
+.results li {
+    text-align: center;
+    list-style: none;
 }
 
 /* link to contact us page */
@@ -265,25 +275,12 @@ footer {
     background-color: #00475b;
 }
 
-/* about and location section */
+/* location section */
 
 #map {
     width: 99.5%;
     height: 490px;
     border: none;
-}
-
-#results {
-    color: white;
-    letter-spacing: 1px;
-    margin-top: 1px;
-    text-transform: uppercase;
-    font-size: 110%;
-}
-
-#results li {
-    text-align: center;
-    list-style: none;
 }
 
 /* contact us form section */
@@ -373,6 +370,8 @@ input[type=submit] {
         clear: left;
     }
 
+    /* update background image for ipad to iphone SE */
+
     #banner-text-2 {
         font-size: 120%;
         width: 70%;
@@ -383,6 +382,8 @@ input[type=submit] {
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    /* update details of restaurant and about the page section */
 
     #centre-box, #right-box, #left-box {
         width: 95%;
@@ -400,6 +401,8 @@ input[type=submit] {
     #map {
         height: 248px;
     }
+
+    /* form responsive elements */
 
     #banner-text-2 {
         font-size: 105%;
@@ -436,6 +439,8 @@ input[type=submit] {
         margin-top: 100px;
         text-align: center;
     }
+
+    /* change image seen on small screens in meat and vegan sections */
 
     #meat-banner, #vegan-banner {
         background-image: url(../images/500px-hero-image.jpg);
