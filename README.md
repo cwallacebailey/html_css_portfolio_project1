@@ -24,6 +24,14 @@ Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey
         * [Form](#form)
 * [Future Features](#future-features)
 * [Testing](#testing)
+    * [Browser Compatability](#browser-compatability)
+    * [Responsiveness](#site-responsiveness-testing)
+    * [Lighthouse Testing](#lighthouse-testing)
+* [Bugs](#bugs)
+    * [Fixed](#fixed)
+    * [Not-Fixed](#not-fixed)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 # Features
 
@@ -141,7 +149,7 @@ The purpose of this page is highlighted in the text box overlayed onto the backg
 
 ## Validation of Code
 
-The Bristol's King Wing site had been extensively tested. The code has been run through the W3C html Validator and W3C CSS validator with no errors. The home, meat, vegan and form page all returned the image below: 
+The Bristol's King Wing site had been extensively tested. The code has been run through the [W3C html Validator](https://validator.w3.org/) and [W3C CSS validator](https://jigsaw.w3.org/css-validator/) with no errors. The home, meat, vegan and form page all returned the image below: 
 
 ![Bristol's King Wing w3validator html](assets/readme-images/w3validator.png)
 
@@ -153,15 +161,73 @@ The CSS code returned the response below:
 
 # Browser Compatability
 
-This site was tested on Firefox, Google Chrome and Internet explorer. While functionality and responsiveness were consistent between browsers the appearance had two slight changes which needed to be fixed. Details can be found ......____________>>>>>>>>>> HERE> >> > > > >>  >
+This site was tested on Firefox, Google Chrome and Internet explorer. While functionality and responsiveness were consistent between browsers the appearance had two slight changes which needed to be fixed. Details can be found [here](#fixed)
 
 [return to contents](<#contents>)
 
-# Sites responsiveness Testing
+# Site Responsiveness Testing
 
-To ensure the site was easily and effectively viewable on different sized screens or on different devices manual tests were carried out using Google Chrome DevTools
+To ensure the site was easily and effectively viewable on different sized screens or on different devices manual tests were carried out using Google Chrome DevTools. The site is responsive and function on the devices and screen sizes below:
+* iPhone SE
+* iPhone X
+* Pixel 2
+* iPad
+* iPad Pro
+* Screens between 950px and 1920px
+
+This was also tested on my own phone and reviewed by a peer on their own iMac screen. 
+
+[return to contents](<#contents>)
+
+# Lighthouse Testing
+Finally the site was tested using google's lighthouse and received the scores seen below: 
+
+![Bristol's King Wing lighthouse](assets/readme-images/lighthouse.png)
+
+Overall this produced strong results. 
+
+[return to contents](<#contents>)
 
 ## Bugs
 
-The 
+* ### Fixed
+    * While testing the site on browsers other than Chrome two bugs were discovered:
+        * The navigation menu items are underlined to show the page the user is currently on. While using Chrome this was the same color as the font but on other browsers it appeared blue:
 
+            ![Bristol's King Wing bug 1 underline](assets/readme-images/bug1-underline.png)
+
+        * This was easily resolved using "text-decoration-color" in CSS. 
+
+        * The second bug was the comment box on the form was allowed to be resized when using firefox or IE. As a result it stretched outside the form area 
+
+            ![Bristol's King Wing bug 2 comment box](assets/readme-images/bug2-resize-textarea.png)
+
+        * This was fixed by preventing the comment box from re-sizing using the CSS code "resize: none"
+
+* ### Not Fixed
+    * The form works as you would expect until it is time to submit at which point the data does not push anywhere. This is a known limitation of the project and would certainly be fixed ahead of being deployed in earnest. 
+
+[return to contents](<#contents>)
+
+# Deployment
+
+The following steps can be followed to deploy this project on Github:
+ 
+  1. In the GitHub repository, navigate to the Settings tab 
+  2. From the source section drop-down menu, select the Master Branch
+  3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+![Bristol's King Wing bug 2 comment box](assets/readme-images/github-deployment.png)
+
+[return to contents](<#contents>)
+
+# Credits 
+
+* The images used in this project were largely taken from Pexels.com
+* The icons were taken from font awesome (https://fontawesome.com/)
+* The font was taken from google fonts (https://fonts.google.com)
+* The description of how to deploy to font awesome was taken from the codeinstitute readme guide. 
+
+I would also like to acknowledge Precious Liege, my mentor, for his great suggestions, pointers and help. Thank you for your time, Precious. 
+
+[return to contents](<#contents>)
