@@ -8,9 +8,17 @@ Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey
 
 # Contents
 
-* [Features](<#Features>)
-    * [Home](<### Navigation Menu>)
-        * [Navigation Menu]()
+* [Features](#features)
+    * [Landing Page](#existing-features)
+        * [Home](#navigation-menu)
+        * [Navigation Menu](#navigation-menu)
+        * [Background](#landing-page-background-image)
+        * [About Us](#about-us)
+        * [User Choice](#user-choice)
+        * [Link to Form](#link-to-form)
+        * [Footer](#footer)
+    * [Meat and Vegan Pages](#meat-and-vegan-pages)
+        * [Background](#meat-and-vegan-page-background)
 
 # Features
 
