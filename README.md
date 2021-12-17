@@ -19,6 +19,11 @@ Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey
         * [Footer](#footer)
     * [Meat and Vegan Pages](#meat-and-vegan-pages)
         * [Background](#meat-and-vegan-page-background)
+        * [Menu Section](#menu-section-of-meat-and-vegan-pages)
+    * [Form Page](#form-page)
+        * [Form](#form)
+* [Future Features](#future-features)
+* [Testing](#testing)
 
 # Features
 
@@ -131,3 +136,5 @@ The purpose of this page is highlighted in the text box overlayed onto the backg
 * The footer links to each websites homepage. At the moment social media pages do not exist for Instagram, Facebook or Youtube and these would first have to be made to link to. 
 * A 'get me there' button could be added which would take the user to a map and options for travel to the restaurant including taxis. 
 * The form section does not currently actually submit data. It instead resets the form when submit is clicked. 
+
+# Testing
