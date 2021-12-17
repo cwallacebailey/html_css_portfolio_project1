@@ -115,7 +115,7 @@ The site is also designed to inspire hunger for the product in a user, be eye ca
     * The left box offers links to trip advisor to allow the user to see what other diners thought of the food. This offers value to the user as seeing other positive reviews would instill trust in the sites top choice. For a better user experience this link opens in a separate tab
     * The right box shows a google map of the restaurants location and can be clicked on to see the address. This also opens in a separate tab and from their a user can put in their location to get directions to the restaurant. This offers value as it provides an easy way for the user to find the restaurant
 
-![Bristol's King Wing ](assets/readme-images/meat-menu-section.png)
+![Bristol's King Wing meat and vegan menu section](assets/readme-images/meat-menu-section.png)
 [return to contents](<#contents>)
 
 ### Form page
@@ -127,7 +127,7 @@ The purpose of this page is highlighted in the text box overlayed onto the backg
     * The form offers 5 sections, name, email, restaurant name, a radio selection to say if their choice offers meat, vegan or both options and finally a comments section. 
     * The form first four sections of the form are 'required' in order to submit the form and if missed by the user when they click submit they will be asked to fill in a missing section. The comments section is optional
 
-![Bristol's King Wing ](assets/readme-images/form-page.png)
+![Bristol's King Wing form page](assets/readme-images/form-page.png)
 [return to contents](<#contents>)
 
 ## Future Features
@@ -138,3 +138,25 @@ The purpose of this page is highlighted in the text box overlayed onto the backg
 * The form section does not currently actually submit data. It instead resets the form when submit is clicked. 
 
 # Testing
+
+## Validation of Code
+
+The Bristol's King Wing site had been extensively tested. The code has been run through the W3C html Validator and W3C CSS validator with no errors. The home, meat, vegan and form page all returned the image below: 
+
+![Bristol's King Wing w3validator html](assets/readme-images/w3validator.png)
+
+The CSS code returned the response below: 
+
+![Bristol's King Wing w3validator css](assets/readme-images/w3validator-css.png)
+
+[return to contents](<#contents>)
+
+# Browser Compatability
+
+This site was tested on Firefox, Google Chrome and Internet explorer. While functionality and responsiveness were consistent between browsers the appearance had two slight changes which needed to be fixed. Details can be found ......____________>>>>>>>>>> HERE> >> > > > >>  >
+
+[return to contents](<#contents>)
+
+# Sites responsiveness Testing
+
+To ensure the site was easily and effectively viewable on different sized screens or on different devices manual tests were carried out using Google Chrome DevTools
