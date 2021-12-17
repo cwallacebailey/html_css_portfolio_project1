@@ -160,3 +160,8 @@ This site was tested on Firefox, Google Chrome and Internet explorer. While func
 # Sites responsiveness Testing
 
 To ensure the site was easily and effectively viewable on different sized screens or on different devices manual tests were carried out using Google Chrome DevTools
+
+## Bugs
+
+The 
+

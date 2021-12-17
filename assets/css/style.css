@@ -73,6 +73,7 @@ li {
 
 .show-page-on {
     text-decoration: underline;
+    text-decoration-color: rgba(221, 69, 55, 1);
 }
 
 /* hero image */
@@ -327,6 +328,10 @@ footer {
 
 .radio {
     display: inline-block;
+}
+
+#comment-box {
+    resize: none;
 }
 
 input[type=submit] {
