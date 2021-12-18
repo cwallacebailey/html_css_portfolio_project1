@@ -46,7 +46,7 @@ The second for "best fried chicken":
 
 ![Bristol's King Wing google analytics best fried chicken](assets/readme-images/best-fried-chicken.png)
 
-We can clearly see an increased demand for the information that the site aimed to deliver and having researched there were no obvious competitors offering the same service as Bristol King Wing. 
+We can clearly see an increased demand for the information that the site aimed to deliver and having researched there were no obvious competitors offering the same service as Bristol King Wing. Bristol's King Wing was therefore built to quickly offer answer to these searches which are becoming more frequent. 
 
 # Features
 
