@@ -8,6 +8,7 @@ Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey
 
 # Contents
 
+* [Reason for Project](#reason-for-project)
 * [Features](#features)
     * [Landing Page](#existing-features)
         * [Home](#navigation-menu)
@@ -24,7 +25,7 @@ Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey
         * [Form](#form)
 * [Future Features](#future-features)
 * [Testing](#testing)
-    * [Browser Compatability](#browser-compatability)
+    * [Browser Compatibility](#browser-compatibility)
     * [Responsiveness](#site-responsiveness-testing)
     * [Lighthouse Testing](#lighthouse-testing)
 * [Bugs](#bugs)
@@ -32,6 +33,20 @@ Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey
     * [Not-Fixed](#not-fixed)
 * [Deployment](#deployment)
 * [Credits](#credits)
+
+# Reason for Project
+
+As stated in the intro there has been growing demand for information on the best fried chicken in Bristol as evidenced by the increased google searches shown below.
+
+The first for "best chicken wing":
+
+![Bristol's King Wing google analytics best wing](assets/readme-images/best-chicken-wing.png)
+
+The second for "best fried chicken": 
+
+![Bristol's King Wing google analytics best fried chicken](assets/readme-images/best-fried-chicken.png)
+
+We can clearly see an increased demand for the information that the site aimed to deliver and having researched there were no obvious competitors offering the same service as Bristol King Wing. 
 
 # Features
 
@@ -58,7 +73,7 @@ The site is also designed to inspire hunger for the product in a user, be eye ca
 [return to contents](<#contents>)
 
 * ### Landing Page Background Image
-    * The image of a wing held centrally on the screen is desinged to make the focus of the site immediately clear to the user
+    * The image of a wing held centrally on the screen is designed to make the focus of the site immediately clear to the user
     * The text box overlayed onto the image allows the user to see the location the site focuses on and to give a message of what the site is for backed up by the about section (below)
     * The image is responsive to screen size and will rotate on smaller screens to always be clear
 
@@ -91,7 +106,7 @@ The site is also designed to inspire hunger for the product in a user, be eye ca
 * ### Link to form
     * This section offers an easy to use link to our submissions form on our 'contact' page to the sites user, be they restaurant owner or punter who has been to what they believe is a better restaurant
     * The description in the section immediately lets the user know what it is for and the text is itself a link to the contact page for ease of use
-    * This offers value to the user as it is simple to use but inspires friendly competition between eateries and allows the usert to feel connected with the site as they contribute their ideas for the best fried chicken wing in Bristol
+    * This offers value to the user as it is simple to use but inspires friendly competition between eateries and allows the user to feel connected with the site as they contribute their ideas for the best fried chicken wing in Bristol
     * This section is available on all tabs except the 'contact' page
 
 ![Bristol's King Wing link to form page](assets/readme-images/contact-link.png)
@@ -109,7 +124,7 @@ The site is also designed to inspire hunger for the product in a user, be eye ca
 ### Meat and Vegan pages
 
 * ### Meat and vegan page background
-    * Once selected the meat or vegan page immediately shows our top meat or vegan choice in Bristol, named in the the text box overlayed onto the image. The background image on the meat page is itself the inside of the eatery and shows the brand of the chicken. The vegan image is designed to look enticing and promote hunger in the user
+    * Once selected the meat or vegan page immediately shows our top meat or vegan choice in Bristol, named in the text box overlayed onto the image. The background image on the meat page is itself the inside of the eatery and shows the brand of the chicken. The vegan image is designed to look enticing and promote hunger in the user
     * The text overlayed onto the image which says 'click for menu' would take the user to the restaurants online menu. For better UX this opens in a new tab and offers value as the user can see if they like the food being offerred and assess its cost. 
     * On screens below 950px this background changes to the home landing image so a clear picture is always maintained on the site
 
@@ -119,9 +134,9 @@ The site is also designed to inspire hunger for the product in a user, be eye ca
 
 * ### Menu section of meat and vegan pages
 
-    * The center box of this section outlines our total score for the restaurant and score of each of the five items by which we rank the food
-    * The left box offers links to trip advisor to allow the user to see what other diners thought of the food. This offers value to the user as seeing other positive reviews would instill trust in the sites top choice. For a better user experience this link opens in a separate tab
-    * The right box shows a google map of the restaurants location and can be clicked on to see the address. This also opens in a separate tab and from their a user can put in their location to get directions to the restaurant. This offers value as it provides an easy way for the user to find the restaurant
+    * The centre box of this section outlines our total score for the restaurant and score of each of the five items by which we rank the food
+    * The left box offers links to trip advisor to allow the user to see what other diners thought of the food. This offers value to the user as seeing other positive reviews would instil trust in the site's top choice. For a better user experience this link opens in a separate tab
+    * The right box shows a google map of the restaurants location and can be clicked on to see the address. This also opens in a separate tab and from there a user can put in their location to get directions to the restaurant. This offers value as it provides an easy way for the user to find the restaurant
 
 ![Bristol's King Wing meat and vegan menu section](assets/readme-images/meat-menu-section.png)
 [return to contents](<#contents>)
@@ -131,7 +146,7 @@ The site is also designed to inspire hunger for the product in a user, be eye ca
 The purpose of this page is highlighted in the text box overlayed onto the background image. It allows a user to submit their choice of restaurant for review
 
 * ### Form
-    * The form is designed to allow a user to recommend their favourite restaraunt to the person running the site if they think they know a better wing than the current top choices on the page
+    * The form is designed to allow a user to recommend their favourite restaurant to the person running the site if they think they know a better wing than the current top choices on the page
     * The form offers 5 sections, name, email, restaurant name, a radio selection to say if their choice offers meat, vegan or both options and finally a comments section. 
     * The form first four sections of the form are 'required' in order to submit the form and if missed by the user when they click submit they will be asked to fill in a missing section. The comments section is optional
 
@@ -140,8 +155,8 @@ The purpose of this page is highlighted in the text box overlayed onto the backg
 
 ## Future Features
 
-* A top 3 section would be added to the meat and vegan pages where the user can see other restaraunts that offer great food but wouldn't be considered the best possible option. This would make the site more usable as it may recommend extra eateries that are closer to the user. 
-* The footer links to each websites homepage. At the moment social media pages do not exist for Instagram, Facebook or Youtube and these would first have to be made to link to. 
+* A top 3 section would be added to the meat and vegan pages where the user can see other restaurants that offer great food but wouldn't be considered the best possible option. This would make the site more usable as it may recommend extra eateries that are closer to the user. 
+* The footer links to each social media's channels homepage. At the moment social media pages do not exist for Instagram, Facebook or Youtube and these would first have to be made to link to. 
 * A 'get me there' button could be added which would take the user to a map and options for travel to the restaurant including taxis. 
 * The form section does not currently actually submit data. It instead resets the form when submit is clicked. 
 
@@ -159,7 +174,7 @@ The CSS code returned the response below:
 
 [return to contents](<#contents>)
 
-# Browser Compatability
+# Browser Compatibility
 
 This site was tested on Firefox, Google Chrome and Internet explorer. While functionality and responsiveness were consistent between browsers the appearance had two slight changes which needed to be fixed. Details can be found [here](#fixed)
 
@@ -192,7 +207,7 @@ Overall this produced strong results.
 
 * ### Fixed
     * While testing the site on browsers other than Chrome two bugs were discovered:
-        * The navigation menu items are underlined to show the page the user is currently on. While using Chrome this was the same color as the font but on other browsers it appeared blue:
+        * The navigation menu items are underlined to show the page the user is currently on. While using Chrome this was the same colour as the font but on other browsers it appeared blue:
 
             ![Bristol's King Wing bug 1 underline](assets/readme-images/bug1-underline.png)
 
