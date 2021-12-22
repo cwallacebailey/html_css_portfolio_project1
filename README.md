@@ -48,6 +48,25 @@ The second for "best fried chicken":
 
 We can clearly see an increased demand for the information that the site aimed to deliver and having researched there were no obvious competitors offering the same service as Bristol King Wing. Bristol's King Wing was therefore built to quickly offer answer to these searches which are becoming more frequent. 
 
+# User Experience
+
+## Structure of Site
+
+Overall Bristol's King Wing has four pages:
+
+* Page 1    - Home page (or landing page)   [Link](https://cwallacebailey.github.io/html_css_portfolio_project1/)
+* Page 2    - Meat option   [Link](https://cwallacebailey.github.io/html_css_portfolio_project1/meat.html)
+* Page 3    - Vegan option  [Link](https://cwallacebailey.github.io/html_css_portfolio_project1/vegan.html)
+* Page 4    - Contact page  [Link](https://cwallacebailey.github.io/html_css_portfolio_project1/contact.html)
+
+Each page is accessible from the main navigation menu located at the top of the screen.
+
+## Site design
+
+### Colour Sheme
+* The colour scheme used has loud colors which allow easy viewing
+### Typography
+
 # Features
 
 Bristol's Best Wing site is designed to be easy to use and present all the information required for the sites recommendation to be trusted. It has features that users of a food site would be familiar with including navigation bar, maps to restaurant, provide access to tripadvisor reviews, details of the eatery and a contact form. 
@@ -174,13 +193,13 @@ The CSS code returned the response below:
 
 [return to contents](<#contents>)
 
-# Browser Compatibility
+## Browser Compatibility
 
 This site was tested on Firefox, Google Chrome and Internet explorer. While functionality and responsiveness were consistent between browsers the appearance had two slight changes which needed to be fixed. Details can be found [here](#fixed)
 
 [return to contents](<#contents>)
 
-# Site Responsiveness Testing
+## Site Responsiveness Testing
 
 To ensure the site was easily and effectively viewable on different sized screens or on different devices manual tests were carried out using Google Chrome DevTools. The site is responsive and function on the devices and screen sizes below:
 * iPhone SE
@@ -194,7 +213,7 @@ This was also tested on my own phone and reviewed by a peer on their own iMac sc
 
 [return to contents](<#contents>)
 
-# Lighthouse Testing
+## Lighthouse Testing
 Finally the site was tested using google's lighthouse and received the scores seen below: 
 
 ![Bristol's King Wing lighthouse](assets/readme-images/lighthouse.png)
@@ -203,7 +222,7 @@ Overall this produced strong results.
 
 [return to contents](<#contents>)
 
-## Bugs
+# Bugs
 
 * ### Fixed
     * While testing the site on browsers other than Chrome two bugs were discovered:
@@ -219,6 +238,19 @@ Overall this produced strong results.
 
         * This was fixed by preventing the comment box from re-sizing using the CSS code "resize: none"
 
+    * While testing the site on different screen resolutions I found there was far too much white space showing on the iPad and iPad and the text was not centred Pro as shown below: 
+
+    ![Bristol's King Wing bug 3 whitespace](assets/readme-images/bug3-whitespace-ipad-issue.png)
+
+    * This was fixed by shrinking the height of the boxes in this section when viewed on a screen with resolutions similar to an iPad. 
+
+    * When viewing the site on an iPhone 5 SE I found that the navigation bar would not centre correctly. Instead the link saying "Bristol King Wing" would float to the left and this looked un-professional. This was fixed by clearing the rules surrounding the positioning of this text when the screen was shown under a certain resolution. The result looks significantly better: 
+    
+    ![Bristol's King Wing bug 4 nav bar](assets/readme-images/bug4-navigation-centre.png)
+
+    * Finally, when viewing any of the pages on an ipad or iphone the background hero-image would not shrink appropriately and this looked pixalated and did not show off the full image. Instead when viewed on a small screen the homescreen image now flips 90 degrees so that the hand holding the chicken wing comes from the bottom. On a phone screen the image on the meat and vegan pages then changes to the hand holding the chicken wing. This offers a uniformity throughout the website for good user experience and it prevents the user seeing a small pixalated image. 
+
+
 * ### Not Fixed
     * The form works as you would expect until it is time to submit at which point the data does not push anywhere. This is a known limitation of the project and would certainly be fixed ahead of being deployed in earnest. 
 
@@ -226,7 +258,9 @@ Overall this produced strong results.
 
 # Deployment
 
-The following steps can be followed to deploy this project on Github:
+## Steps for Deployment
+
+The following steps can be followed to deploy this project on Github pages:
  
   1. In the GitHub repository, navigate to the Settings tab 
   2. From the source section drop-down menu, select the Master Branch
@@ -235,6 +269,22 @@ The following steps can be followed to deploy this project on Github:
 ![Bristol's King Wing bug 2 comment box](assets/readme-images/github-deployment.png)
 
 [return to contents](<#contents>)
+
+## Steps to Clone the Repository
+
+To clone the repository in order to be able to make changes to the project without effecting the original repository please follow the steps below: 
+
+1. Open Github and locate the repository you wish to copy
+2. Above the list of files click "code"
+3. To clone the repository using HTTPS, under "clone with HTTPS", click the copy icon. 
+[return to contents](<#contents>)
+
+![Bristol's King Wing git clone](assets/readme-images/github-clone.png)
+
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory
+6. Type git clone and then paste the URL you copied earlier
+7. Press enter to create your local clonet
 
 # Credits 
 
