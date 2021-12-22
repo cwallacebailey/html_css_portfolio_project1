@@ -8,6 +8,10 @@ Please do take a look at the site - [Bristol's King Wing](https://cwallacebailey
 
 # Contents
 
+* [User Experience](#user-experience)
+    * [Design](#site-design)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
 * [Reason for Project](#reason-for-project)
 * [Features](#features)
     * [Landing Page](#existing-features)
@@ -63,9 +67,25 @@ Each page is accessible from the main navigation menu located at the top of the 
 
 ## Site design
 
+### Wire Frame
+
+The initial design of the page was drafted using balsamiq. Though some small changes were made to the structure of the site throughout the development process this largely remained intact. The wireframe aided development by giving a goal for the appearance of the site and how this would translate to a smaller screen. 
+
+![Bristol's King Wing Wirefram](assets/readme-images/wireframe.png)
+
+[return to contents](<#contents>)
+
 ### Colour Sheme
-* The colour scheme used has loud colors which allow easy viewing
+* The colour scheme of red, blue and white used throughout the site allow easy viewing but remain eye catching. 
+
+[return to contents](<#contents>)
+
 ### Typography
+
+* The font Anton was used throughout the site for its stand out appearance and as it is easy to read without losing impact in smaller sizes
+* There is a backup font of Sans-Serif which will be presented if Anton is not supported. 
+
+[return to contents](<#contents>)
 
 # Features
 
@@ -289,6 +309,8 @@ To clone the repository in order to be able to make changes to the project witho
 # Credits 
 
 * The images used in this project were largely taken from Pexels.com
+    * [Chicken wing on blue background](https://www.pexels.com/photo/crop-person-showing-fried-chicken-leg-on-blue-background-4604172/)
+    * [Vegan chicken snap](https://www.pexels.com/photo/fried-chicken-legs-in-sweet-glaze-10361458/)
 * The icons were taken from font awesome (https://fontawesome.com/)
 * The font was taken from google fonts (https://fonts.google.com)
 * The description of how to deploy to font awesome was taken from the codeinstitute readme guide. 
