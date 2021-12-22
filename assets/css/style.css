@@ -352,6 +352,18 @@ input[type=submit] {
         width: 80%;
         margin: 4px auto;
     }
+
+    #left-box, #right-box {
+        height: 250px;
+    }
+    
+    #map {
+        height: 248px;
+    }
+
+    #right-box h2, #left-box h2 {
+        padding-top: 5%;
+    }
 }
 
 @media screen and (max-width: 1050px) {
@@ -394,17 +406,9 @@ input[type=submit] {
         width: 95%;
     }
 
-    #left-box, #right-box {
-        height: 250px;
-    }
-
     #left-box h2, #right-box h2 {
         font-size: 200%;
         padding-top: 8%;
-    }
-
-    #map {
-        height: 248px;
     }
 
     /* form responsive elements */
